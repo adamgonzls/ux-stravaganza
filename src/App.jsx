@@ -4,11 +4,14 @@ import Header from './components/Header'
 import Home from './routes/Home'
 import Projects from './routes/Projects'
 import SignUpPage from './routes/001-sign-up-page'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import { documentHeight } from './utils'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  window.addEventListener('resize', documentHeight)
+  documentHeight()
 
   return (
     <div className='App'>

@@ -1,0 +1,37 @@
+.sign-up-page-container {
+  height: 100%;
+  display: flex;
+}
+
+.sign-up-content {
+  display: flex;
+  align-items: center;
+}
+
+.sign-up-page-container > div {
+  flex: 1;
+}
+
+.sign-up-form label {
+  display: block;
+}
+
+.sign-up-background {
+  padding: 1.25em;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(/src/assets/restaurant.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.review {
+  border: 1px solid #fff;
+  padding: 0.75em;
+  color: #fff;
+}
+
+.review-row {
+  display: flex;
+  justify-content: space-between;
+}

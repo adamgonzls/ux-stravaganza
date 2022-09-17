@@ -9,10 +9,10 @@ export default function Header() {
 
   return (
     <header>
-      <ul>
+      <nav>
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/projects'>Projects</NavLink>
-      </ul>
+      </nav>
     </header>
   )
 }
