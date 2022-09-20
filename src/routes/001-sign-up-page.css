@@ -1,19 +1,47 @@
-.sign-up-page-container {
+h1 {
+  margin-bottom: 0.25em;
+}
+
+p {
+  margin-bottom: 0.75em;
+}
+
+.sign-up__page {
   height: 100%;
   display: flex;
 }
 
-.sign-up-content {
+.sign-up__content {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.sign-up-page-container > div {
+.sign-up__page > div {
   flex: 1;
 }
 
-.sign-up-form label {
+.sign-up__form {
+  font-size: 0.75rem;
+}
+
+.sign-up__form label {
+  font-weight: bold;
+}
+
+.sign-up__form label,
+.sign-up__form input:not([type='checkbox']) {
   display: block;
+}
+
+.sign-up__form input:not([type='checkbox']) {
+  width: 100%;
+  margin-bottom: 0.75em;
+}
+
+.row__inputs {
+  display: flex;
+  justify-content: space-between;
 }
 
 .sign-up-background {
